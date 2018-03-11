@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2715C2C044917DCE50D949DB /* Pods_Bind_TableView_RXSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E795A7FD16AA334C39389D87 /* Pods_Bind_TableView_RXSwift.framework */; };
 		B43393422054527200D85A36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43393412054527200D85A36 /* AppDelegate.swift */; };
 		B43393442054527200D85A36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43393432054527200D85A36 /* ViewController.swift */; };
 		B43393472054527200D85A36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B43393452054527200D85A36 /* Main.storyboard */; };
 		B43393492054527200D85A36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B43393482054527200D85A36 /* Assets.xcassets */; };
 		B433934C2054527200D85A36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B433934A2054527200D85A36 /* LaunchScreen.storyboard */; };
+		B43393542054534E00D85A36 /* Contributor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43393532054534E00D85A36 /* Contributor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		271AD8AA32585430EB1C42DA /* Pods-Bind_TableView_RXSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bind_TableView_RXSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bind_TableView_RXSwift/Pods-Bind_TableView_RXSwift.release.xcconfig"; sourceTree = "<group>"; };
 		B433933E2054527200D85A36 /* Bind_TableView_RXSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bind_TableView_RXSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B43393412054527200D85A36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B43393432054527200D85A36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,9 @@
 		B43393482054527200D85A36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B433934B2054527200D85A36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B433934D2054527200D85A36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B43393532054534E00D85A36 /* Contributor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contributor.swift; sourceTree = "<group>"; };
+		E795A7FD16AA334C39389D87 /* Pods_Bind_TableView_RXSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bind_TableView_RXSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7F9CB46D1CD0D811119E591 /* Pods-Bind_TableView_RXSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bind_TableView_RXSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bind_TableView_RXSwift/Pods-Bind_TableView_RXSwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2715C2C044917DCE50D949DB /* Pods_Bind_TableView_RXSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				B43393402054527200D85A36 /* Bind_TableView_RXSwift */,
 				B433933F2054527200D85A36 /* Products */,
+				F52DB8EE142AE529DC30C267 /* Pods */,
+				BA9C44996974053AF0FCD95E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +65,30 @@
 			children = (
 				B43393412054527200D85A36 /* AppDelegate.swift */,
 				B43393432054527200D85A36 /* ViewController.swift */,
+				B43393532054534E00D85A36 /* Contributor.swift */,
 				B43393452054527200D85A36 /* Main.storyboard */,
 				B43393482054527200D85A36 /* Assets.xcassets */,
 				B433934A2054527200D85A36 /* LaunchScreen.storyboard */,
 				B433934D2054527200D85A36 /* Info.plist */,
 			);
 			path = Bind_TableView_RXSwift;
+			sourceTree = "<group>";
+		};
+		BA9C44996974053AF0FCD95E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E795A7FD16AA334C39389D87 /* Pods_Bind_TableView_RXSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F52DB8EE142AE529DC30C267 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7F9CB46D1CD0D811119E591 /* Pods-Bind_TableView_RXSwift.debug.xcconfig */,
+				271AD8AA32585430EB1C42DA /* Pods-Bind_TableView_RXSwift.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B43393502054527200D85A36 /* Build configuration list for PBXNativeTarget "Bind_TableView_RXSwift" */;
 			buildPhases = (
+				B23A3E40EC4CBF707E040686 /* [CP] Check Pods Manifest.lock */,
 				B433933A2054527200D85A36 /* Sources */,
 				B433933B2054527200D85A36 /* Frameworks */,
 				B433933C2054527200D85A36 /* Resources */,
+				C02F780A3CDEBABFF49CB477 /* [CP] Embed Pods Frameworks */,
+				8E98383CC37F289319E8BA67 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,12 +161,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8E98383CC37F289319E8BA67 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bind_TableView_RXSwift/Pods-Bind_TableView_RXSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B23A3E40EC4CBF707E040686 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bind_TableView_RXSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C02F780A3CDEBABFF49CB477 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Bind_TableView_RXSwift/Pods-Bind_TableView_RXSwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bind_TableView_RXSwift/Pods-Bind_TableView_RXSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B433933A2054527200D85A36 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B43393442054527200D85A36 /* ViewController.swift in Sources */,
+				B43393542054534E00D85A36 /* Contributor.swift in Sources */,
 				B43393422054527200D85A36 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +359,7 @@
 		};
 		B43393512054527200D85A36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7F9CB46D1CD0D811119E591 /* Pods-Bind_TableView_RXSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +375,7 @@
 		};
 		B43393522054527200D85A36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 271AD8AA32585430EB1C42DA /* Pods-Bind_TableView_RXSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
